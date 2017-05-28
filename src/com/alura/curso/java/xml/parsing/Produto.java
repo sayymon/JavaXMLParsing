@@ -11,6 +11,8 @@ public class Produto {
 		this.nome = nome;
 		this.preco = preco;
 	}
+	public Produto() {
+	}
 	public String getNome() {
 		return nome;
 	}
